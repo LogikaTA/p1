@@ -1,1 +1,239 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(220, 220, 220);
+}
+header{
+      background-color: rgb(220, 220, 220);
+      margin-top: 2px;
+      padding-top: 3px;
+      text-align: center;
+}
+main{
+    text-align: center;
+}
 
+h1 {
+    top: 0px;
+    background-color: red;
+    border: 6px dotted rgb(4, 2, 2);
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.gg {
+    margin-left: 2px;
+    background-color: red;
+    border: 6px dotted rgb(4, 2, 2);
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+nav a {
+    color: white;
+     background-color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.navi:hover{
+background-color: rgb(0, 0, 0);
+border-radius: 20px;
+font-size: 25px;
+padding: 7px;
+}
+.call{
+    font-size: 20px;
+    position:fixed;
+    top:85%;
+    left:88%;
+    width:15%;
+    padding:2%;
+    border: 40px;
+}
+
+.head_img {
+    width: 700px;
+}
+
+h2 {
+     text-align: center;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.catalog a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.button:hover {
+     background-color: rgb(56, 255, 6);
+     border: 2px solid  rgb(56, 255, 6);
+}
+.catalog {
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1140px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color:  rgb(255, 0, 0);
+}
+.button{
+    color: white;
+     border: 2px solid rgb(244, 0, 0);
+     
+     padding-top: 3px;
+     padding-right: 5px;
+     padding-bottom: 3px;
+     padding-left: 5px;
+     background-color: rgb(255, 0, 0);
+}
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.product1 {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: bisque;
+    }
+
+.product1:hover {
+    content: url("https://png.pngtree.com/png-vector/20211019/ourlarge/pngtree-15-percent-off-sign-png-image_3997087.png");
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(145, 112, 116);
+}
+ h4 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.product1 a{
+    display:block;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.foto{
+    width: 25px;
+}
+.product1::before {
+    width: 30px;
+    height: 30px;
+    display: block;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+h6 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+.catalog{
+    text-align: center;
+}
+.principles{
+    text-align: center;
+}
+.principles h5 {
+    font-size: 40px;
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+    border-bottom: 5px dotted rgb(78, 66, 51);
+}
+
+.map {
+    position: relative;
+}
+.marker{
+    position: absolute;
+    left: 400px;
+    top: 150px;
+}
+.marker span{
+    background-color:white ;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.question-answer {
+    margin: 30px;
+}
+
+.question {
+    color: rgb(92, 79, 56);
+}
+
+.slogan {
+    display: flex;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.slogan_img {
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 2px;
+}
+.slogan_img2 {
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+footer {
+    background-color:rgb(255, 0, 0);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.qua-item::before{
+   content: url("/uploads/2021/03/question_0_1614951460.svg");
+    width: 10px;
+    height: 20px; 
+    display:inline-block;
+}
+
+.slogan_img span{
+        background-color:white ;
+    font-size: 20px;
+    padding: 10px;
+     position: absolute;
+    left: 227px;
+    top: 2980px;
+}
