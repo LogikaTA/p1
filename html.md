@@ -1,5 +1,10 @@
 <html>
     <body>
+        <head>
+    ...
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    ...
+</head>
         <header>
            <h1> Anime stor</h1>
             <nav>
